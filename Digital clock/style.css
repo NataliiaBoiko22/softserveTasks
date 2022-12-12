@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "digital-7";
+  src: url("fonts/digital-7.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "digital-7-it";
+  src: url("fonts/digital-7\ \(italic\).ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  padding-top: 20px;
+  padding-left: 150px;
+}
+.date {
+  font-family: "digital-7-it";
+  color: rgb(199, 199, 7);
+  font-size: 32px;
+}
+.clock {
+  font-family: "digital-7-it";
+  color: rgb(199, 199, 7);
+  font-size: 100px;
+}
